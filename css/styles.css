@@ -582,7 +582,12 @@ h3,
   gap: 14px;
 }
 
-.form__section--minor {
+.form__section--minor[hidden] {
+  display: none !important;
+}
+
+.form__section--minor.is-visible {
+  display: grid;
   padding: 16px;
   border-radius: 18px;
   background: linear-gradient(180deg, var(--purple-soft), #faf8ff);

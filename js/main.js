@@ -43,6 +43,7 @@ function updateFormMode() {
   const forMinor = isMinorEnrollment();
 
   minorSection.hidden = !forMinor;
+  minorSection.classList.toggle("is-visible", forMinor);
   representanteTitle.textContent = forMinor ? "Datos del representante" : "Tus datos";
 
   minorSection.querySelectorAll("input").forEach((input) => {
@@ -50,6 +51,7 @@ function updateFormMode() {
       input.required = true;
     } else {
       input.required = false;
+      input.value = "";
     }
   });
 }
