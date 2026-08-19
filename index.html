@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso Web-Developer desde Cero | acacode</title>
+    <meta
+      name="description"
+      content="Curso Web-Developer de acacode: aprende HTML, CSS y JavaScript desde cero. 16 horas académicas, proyectos reales y portafolio práctico. Desde 16 años."
+    />
+    <link rel="icon" href="img/logo-acacode.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#inicio" aria-label="acacode, ir al inicio">
+          <img src="img/logo-acacode.png" alt="Logo de acacode" />
+        </a>
+        <nav class="nav" id="nav" aria-label="Principal">
+          <a href="#temario">Temario</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#inscripcion" class="nav__cta">Inscribirse</a>
+        </nav>
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">Academia acacode · Desde cero</p>
+            <h1>
+              Curso Web-Developer
+              <span>HTML, CSS & JavaScript</span>
+            </h1>
+            <p class="hero__lead">
+              De cero a fundamentos sólidos. Construirás un portafolio de proyectos
+              prácticos que demuestran tus habilidades en desarrollo web frontend.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#inscripcion">Contactar al asesor</a>
+              <a class="btn btn--ghost" href="#temario">Ver temario</a>
+            </div>
+            <ul class="hero__stats">
+              <li>
+                <strong>16</strong>
+                <span>horas académicas</span>
+              </li>
+              <li>
+                <strong>9</strong>
+                <span>módulos</span>
+              </li>
+              <li>
+                <strong>16+</strong>
+                <span>años en adelante</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__visual">
+            <div class="hero-banner">Curso Web-Developer desde Cero</div>
+            <img
+              class="hero__photo"
+              src="img/hero-curso.png"
+              alt="Estudiantes en el aula de acacode aprendiendo desarrollo web"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="method" id="metodologia">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Metodología</p>
+            <h2>Teoría, práctica y proyectos reales</h2>
+            <p>
+              Cada módulo combina exposición teórica-visual, diagramación interactiva,
+              live coding y laboratorios prácticos para que domines HTML, CSS y
+              JavaScript con bases profesionales.
+            </p>
+          </div>
+          <div class="method__grid">
+            <article class="station-card station-card--lab">
+              <span class="station-card__tag">Enfoque 1</span>
+              <h3>Fundamentos sólidos</h3>
+              <p>
+                Comprende cómo funciona la web: protocolos HTTP, arquitectura
+                cliente-servidor, HTML semántico, CSS moderno y JavaScript ES6+.
+              </p>
+              <ul>
+                <li>Live coding en cada módulo</li>
+                <li>Diagramas con Excalidraw</li>
+                <li>Quizzes y mapas conceptuales</li>
+              </ul>
+            </article>
+            <article class="station-card station-card--maker">
+              <span class="station-card__tag">Enfoque 2</span>
+              <h3>Proyectos de portafolio</h3>
+              <p>
+                Construye aplicaciones interactivas reales: contador, reloj digital,
+                to-do list, modo oscuro/claro y tu proyecto final integrador.
+              </p>
+              <ul>
+                <li>Laboratorios guiados paso a paso</li>
+                <li>Consumo de APIs con fetch</li>
+                <li>Despliegue en producción con Git</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="programs" id="temario">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Temario completo</p>
+            <h2>9 módulos · HTML y Fundamentos Web</h2>
+            <p>
+              Un recorrido estructurado desde la arquitectura de la web hasta el
+              despliegue de tu proyecto final en producción.
+            </p>
+          </div>
+
+          <div class="program-grid">
+            <article class="program">
+              <header class="program__top">
+                <span class="program__icon" aria-hidden="true">01</span>
+                <div>
+                  <p class="program__week">Módulo 1</p>
+                  <h3>Introducción a la Web y Entornos de Desarrollo</h3>
+                </div>
+              </header>
+              <p class="program__goal">
+                Modelo cliente-servidor, protocolos HTTP/HTTPS, DNS, hosting y
+                configuración de Visual Studio Code con extensiones clave.
+              </p>
+              <div class="skills">
+                <span>HTTP</span>
+                <span>DNS</span>
+                <span>VS Code</span>
+              </div>
+            </article>
+
+            <article class="program">
+              <header class="program__top">
+                <span class="program__icon" aria-hidden="true">02</span>
+                <div>
+                  <p class="program__week">Módulo 2</p>
+                  <h3>HTML5 Estructural y Semántica</h3>
+                </div>
+              </header>
+              <p class="program__goal">
+                Anatomía del documento HTML5, metadatos, etiquetas semánticas,
+                accesibilidad (a11y) y SEO básico.
+              </p>
+              <p class="program__product">Laboratorio: Mi Primer Documento Web</p>
+              <div class="skills">
+                <span>Semántica</span>
+                <span>Accesibilidad</span>
+                <span>SEO</span>
+              </div>
+            </article>
+
+            <article class="program">
+              <header class="program__top">
+                <span class="program__icon" aria-hidden="true">03</span>
+                <div>
+                  <p class="program__week">Módulo 3</p>
+                  <h3>Formularios, Tablas y Multimedia</h3>
+                </div>
+              </header>
+              <p class="program__goal">
+                Formularios interactivos con validación nativa, tablas de datos e
+                integración de imágenes, audio, video e iframes.
+              </p>
+              <p class="program__product">Laboratorio: Portal de Registro e Inventario</p>
+              <div class="skills">
+                <span>Formularios</span>
+                <span>Validación</span>
+                <span>Multimedia</span>
+              </div>
+            </article>
+
+            <article class="program">
+              <header class="program__top">
+                <span class="program__icon" aria-hidden="true">04</span>
+                <div>
+                  <p class="program__week">Módulo 4</p>
+                  <h3>CSS3 y Modelo de Caja</h3>
+                </div>
+              </header>
+              <p class="program__goal">
+                Selectores, cascada, especificidad, unidades de medida, box model,
+                tipografía y colores.
+              </p>
+              <p class="program__product">Taller: Tarjeta de Producto / Profile Card</p>
+              <div class="skills">
+                <span>Box Model</span>
+                <span>Tipografía</span>
+                <span>DevTools</span>
+              </div>
+            </article>
+
+            <article class="program">
+              <header class="program__top">
+                <span class="program__icon" aria-hidden="true">05</span>
+                <div>
+                  <p class="program__week">Módulo 5</p>
+                  <h3>Flexbox, CSS Grid y Responsive</h3>
+                </div>
+              </header>
+              <p class="program__goal">
+                Maquetación moderna con Flexbox y Grid, diseño mobile-first, media
+                queries y variables CSS.
+              </p>
+              <p class="program__product">Laboratorio: Landing Page Responsiva</p>
+              <div class="skills">
+                <span>Flexbox</span>
+                <span>CSS Grid</span>
+                <span>Responsive</span>
+              </div>
+            </article>
+
+            <article class="program">
+              <header class="program__top">
+                <span class="program__icon" aria-hidden="true">06</span>
+                <div>
+                  <p class="program__week">Módulo 6</p>
+                  <h3>JavaScript ES6+ Fundamentos</h3>
+                </div>
+              </header>
+              <p class="program__goal">
+                Variables, tipos de datos, operadores, estructuras de control,
+                funciones flecha y métodos de arreglos.
+              </p>
+              <p class="program__product">Laboratorio: 10 ejercicios de lógica</p>
+              <div class="skills">
+                <span>ES6+</span>
+                <span>Algoritmos</span>
+                <span>Arrays</span>
+              </div>
+            </article>
+
+            <article class="program">
+              <header class="program__top">
+                <span class="program__icon" aria-hidden="true">07</span>
+                <div>
+                  <p class="program__week">Módulo 7</p>
+                  <h3>DOM y Manejo de Eventos</h3>
+                </div>
+              </header>
+              <p class="program__goal">
+                Selección y manipulación del DOM, creación de nodos, event listeners
+                y delegación de eventos.
+              </p>
+              <p class="program__product">Laboratorio: To-Do List / Carrito de Compras</p>
+              <div class="skills">
+                <span>DOM</span>
+                <span>Eventos</span>
+                <span>Interactividad</span>
+              </div>
+            </article>
+
+            <article class="program">
+              <header class="program__top">
+                <span class="program__icon" aria-hidden="true">08</span>
+                <div>
+                  <p class="program__week">Módulo 8</p>
+                  <h3>JavaScript Asíncrono y APIs</h3>
+                </div>
+              </header>
+              <p class="program__goal">
+                Promesas, async/await, Fetch API, JSON y persistencia con
+                localStorage y sessionStorage.
+              </p>
+              <p class="program__product">Laboratorio: Buscador / Dashboard Dinámico</p>
+              <div class="skills">
+                <span>Fetch API</span>
+                <span>Async/Await</span>
+                <span>localStorage</span>
+              </div>
+            </article>
+
+            <article class="program program--wide">
+              <header class="program__top">
+                <span class="program__icon" aria-hidden="true">09</span>
+                <div>
+                  <p class="program__week">Módulo 9</p>
+                  <h3>Git, GitHub, Despliegue y Proyecto Final</h3>
+                </div>
+              </header>
+              <p class="program__goal">
+                Control de versiones con Git, colaboración en GitHub, despliegue en
+                Netlify/Vercel, auditoría con Lighthouse y defensa del proyecto final.
+              </p>
+              <p class="program__product">Proyecto integrador: app web completa y responsiva</p>
+              <div class="skills">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Deploy</span>
+                <span>Lighthouse</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="proyectos">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Proyectos interactivos</p>
+            <h2>Lo que construirás durante el curso</h2>
+            <p>
+              Cada proyecto refuerza habilidades concretas y suma piezas a tu
+              portafolio profesional.
+            </p>
+          </div>
+          <div class="projects__grid">
+            <article class="project-chip">Presentación web interactiva</article>
+            <article class="project-chip">Contador digital</article>
+            <article class="project-chip">Reloj digital en tiempo real</article>
+            <article class="project-chip">Juego de la culebrita (Snake)</article>
+            <article class="project-chip">Modo oscuro / claro</article>
+            <article class="project-chip">Lista de tareas (To-Do List)</article>
+          </div>
+        </div>
+      </section>
+
+      <section class="enroll" id="inscripcion">
+        <div class="container enroll__grid">
+          <div class="enroll__copy">
+            <p class="eyebrow">Inscripción</p>
+            <h2>Habla con un asesor de acacode</h2>
+            <p>
+              Completa el formulario y te llevaremos directo a WhatsApp con tu
+              información lista. Un asesor te orientará para inscribirte en el
+              Curso Web-Developer.
+            </p>
+            <ul class="enroll__points">
+              <li>16 horas académicas</li>
+              <li>Edad mínima: 16 años</li>
+              <li>Proyectos reales para tu portafolio</li>
+              <li>Respuesta por WhatsApp</li>
+            </ul>
+          </div>
+
+          <form class="form" id="leadForm" novalidate>
+            <fieldset class="form__fieldset">
+              <legend>¿Para quién es el curso?</legend>
+              <label class="radio-card">
+                <input type="radio" name="tipo_inscripcion" value="personal" checked />
+                <span>Es para mí (soy el estudiante)</span>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="tipo_inscripcion" value="menor" />
+                <span>Es para un menor de edad (soy el representante)</span>
+              </label>
+            </fieldset>
+
+            <div class="form__section">
+              <p class="form__section-title" id="representanteTitle">Tus datos</p>
+              <div class="form__row">
+                <label>
+                  Nombre
+                  <input type="text" name="nombre" autocomplete="given-name" placeholder="María" required />
+                </label>
+                <label>
+                  Apellido
+                  <input type="text" name="apellido" autocomplete="family-name" placeholder="Pérez" required />
+                </label>
+              </div>
+              <label>
+                Cédula
+                <input type="text" name="cedula" inputmode="numeric" placeholder="V-12345678" required />
+              </label>
+              <label>
+                Correo electrónico
+                <input type="email" name="correo" autocomplete="email" placeholder="correo@ejemplo.com" required />
+              </label>
+              <label>
+                Número de teléfono
+                <input type="tel" name="telefono" autocomplete="tel" placeholder="0422-3234253" required />
+              </label>
+            </div>
+
+            <div class="form__section form__section--minor" id="minorSection" hidden>
+              <p class="form__section-title">Datos del menor de edad</p>
+              <div class="form__row">
+                <label>
+                  Nombre del menor
+                  <input type="text" name="menor_nombre" autocomplete="off" placeholder="Juan" />
+                </label>
+                <label>
+                  Apellido del menor
+                  <input type="text" name="menor_apellido" autocomplete="off" placeholder="Pérez" />
+                </label>
+              </div>
+              <label>
+                Edad del menor
+                <input type="number" name="menor_edad" min="1" max="17" placeholder="15" />
+              </label>
+              <label>
+                Cédula o documento del menor (opcional)
+                <input type="text" name="menor_cedula" placeholder="V-12345678" />
+              </label>
+            </div>
+
+            <p class="form__error" id="formError" hidden></p>
+            <button class="btn btn--primary btn--full" type="submit">Contactar al asesor</button>
+            <p class="form__note">Se abrirá WhatsApp con tus datos y el mensaje de interés en el curso.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <img src="img/logo-acacode.png" alt="acacode" />
+        <p>Curso Web-Developer · Academia de habilidades para el futuro.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
