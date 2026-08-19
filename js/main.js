@@ -94,6 +94,14 @@ form?.addEventListener("submit", (event) => {
     return;
   }
 
+  if (forMinor) {
+    const edad = Number(menorEdad);
+    if (!Number.isInteger(edad) || edad < 16) {
+      showError("La edad mínima para el curso es 16 años.");
+      return;
+    }
+  }
+
   const lines = [
     `Hola, soy ${nombre} ${apellido}.`,
     forMinor
